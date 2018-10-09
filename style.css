@@ -1,0 +1,308 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Valores globales */
+
+body {
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size: 0.9em;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 61px;
+  margin: 40px 0 20px 0;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h3 {
+  color:rgb(55, 61, 72);
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+  padding-bottom: 20px;
+}
+
+.limpia {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.link-btn {
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  padding: 8px 10px;
+  text-align: center;
+  width: 130px;
+  font-size: 17px;
+}
+
+
+
+
+
+
+/* barra de navegacion */
+
+nav {
+  background-color: #fff;
+  color: black;
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.cora {
+  color: black;
+  margin-right: 10px;
+}
+
+
+
+/* Header */
+
+
+
+.col {
+  float: left;
+}
+
+.col-2 {
+  width: 30%;
+  text-align: center;
+}
+
+.col-3 {
+  width: 33%
+}
+
+.izq {
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header .container{
+  padding-top: 40px;
+}
+
+
+
+.logo-line {
+  float: left;
+}
+
+
+.logo-npm {
+  width: 70px;
+  height: 27px;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+
+.lupa{
+  padding-right: 3px;
+  padding-top: 20px;
+  display: inline;
+}
+
+
+.search-bar {
+  background-color: transparent;
+  height: 45px;
+  width: 900px;
+  margin: 10px 0 10px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:rgba(255, 255, 255, 0.2);
+  text-indent: 10px;
+  font-size: 16px;
+
+}
+
+
+.sign-up-log-in {
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.sign-up-log-in a {
+  text-decoration: none;
+  color: rgba(8, 8, 8, 0.8);
+}
+
+/* container 1 */
+
+
+.container1 {
+  background-image: url(images/city-scape.svg);
+  background-repeat: no-repeat; 
+   color: #fff;
+  background-color: rgb(32, 101, 136);
+  background-size: cover;
+  height: 420px;
+  margin-top: 67px;
+}
+
+
+.container1 .link-btn {
+  background-color: rgb(235, 131, 26);
+  text-align: center;
+  margin-left: 120px;
+  width: 170px;
+}
+
+#powerful {
+  background-color: #273547;
+  color: #fff;
+  display: block;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+#powerful .link-btn {
+  background-color:rgb(203, 56, 55);
+  margin-bottom: 15px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+#install .link-btn {
+  background-color:rgb(52, 73, 94);
+}
+
+.bold-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.team-mates {
+  width: 550px;
+  height: 400px;
+  float: left;
+  padding-right:10px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.collab-text {
+  float: right;
+  width: 40%;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-right: 0;
+  text-align: center;
+}
+
+.collab-text a{
+  margin-left: 50px;
+}
+
+.collab-text ul {
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 20px;
+  padding-left: 5%;
+}
+
+.collab-text li {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+#install {
+  background-image: url(images/forklift.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  height: 500px;
+}
+
+#install .container {
+  position: absolute;
+  width: 30%;
+  left: 15%;
+  top: 10%;
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+#information h2 {
+  color:rgb(55, 61, 72);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+#information p {
+  color:rgb(109, 121, 134);
+  font-size: 16px;
+  text-align: center;
+}
+
+.round-logo {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.logo-text {
+  margin-right: 48px;
+  margin-left: 48px;
+  padding: 0 20px 40px 20px;
+}
+
+.tech-links {
+  color:rgb(143, 32, 32);
+  text-decoration:none;
+  font: bold;
+}
+
